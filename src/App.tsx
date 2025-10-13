@@ -1,12 +1,9 @@
-
 function App() {
-  return (
-    <>
-      <div>
-        ha lo
-      </div>
-    </>
-  )
+    return (
+        <>
+            <div>ha lo</div>
+        </>
+    );
 }
 
-export default App
+export default App;
