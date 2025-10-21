@@ -1,0 +1,45 @@
+@mixin Navbar {
+    width: 256px;
+    height: 34px;
+    display: flex;
+    box-sizing: border-box;
+    padding-right: 2px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    &:hover {
+        background-color: rgba($color: #575252, $alpha: 0.5);
+        border-radius: 6px;
+    }
+}
+
+@mixin NavbarActive {
+    background-color: rgba($color: #a05a21, $alpha: 0.5);
+    border-radius: 6px;
+}
+
+@mixin Navbtn {
+    width: 230px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 5px;
+    img {
+        width: 24px;
+        height: 24px;
+        background-color: none;
+    }
+    h3 {
+        padding: 3px 0 3px 5px;
+    }
+}
+
+@mixin NavbtnData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
